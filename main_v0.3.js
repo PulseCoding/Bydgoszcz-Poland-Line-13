@@ -798,7 +798,7 @@ var DoRead = function (){
             //Paletizer -------------------------------------------------------------------------------------------------------------
 
           //Barcode -------------------------------------------------------------------------------------------------------------
-          if(resp.register[60]==0&&resp.register[61]==0&&resp.register[62]==0&&resp.register[63]==0&&resp.register[64]==0&&resp.register[65]==0&&resp.register[66]==0&&resp.register[67]==0){
+          if(resp.register[68]==0&&resp.register[69]==0&&resp.register[62]==0&&resp.register[63]==0&&resp.register[64]==0&&resp.register[65]==0&&resp.register[66]==0&&resp.register[67]==0){
             Barcode='0';
           }else {
 
